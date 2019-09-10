@@ -1,0 +1,15 @@
+{
+    "name": "casaba-sugar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "rm -rf .casaba/* && node server env=development",
+        "build": "node server env=production"
+    },
+    "author": "Joenix",
+    "license": "MIT",
+    "dependencies": {
+        "vue-ssr-pie": "^1.0.0"
+    }
+}
